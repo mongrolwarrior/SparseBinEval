@@ -1,0 +1,24 @@
+runs/
+__pycache__/
+*.pyc
+data/*
+!data/README.md
+dist/
+runs_compare/
+*.libsvm
+tools/metrics
+
+# archived binary/output artifacts (kept locally, not in git)
+archive/legacy/*.zip
+archive/legacy/*.docx
+archive/legacy/*.dat
+archive/legacy/*.txt
+archive/legacy/**/*.pdf
+archive/legacy/**/*.png
+
+# local-only utility/data-prep scripts (kept on disk, not published for now)
+/medline.py
+/pca_init.py
+/split_corpus.py
+/subsample_sbcsr.py
+/kernel_sweep.py
